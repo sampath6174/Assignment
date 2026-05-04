@@ -17,6 +17,9 @@
         marquee{
             width: 30%;
         }
+        #info:hover{
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -71,8 +74,14 @@
 <pre>            "Keeps my deinks cold for hours"</pre>
 <p>-James</p>
 <h3 id="FAQ">Frequently Asked Questions</h3>
-<p>Is the EcoBottle dishwasher safe?</p>
-<p>Does it keep drinks hot?</p>
+<details>
+    <summary id="info">Is the EcoBottle dishwasher safe?</summary>
+    <p >Yes</p>
+</details>
+<details>
+    <summary id="info">Does it keep drinks hot?</summary>
+        <p >Yes</p>
+</details>
 <h3 id="contact">Contact Us</h3>
 <p>Name:</p>
 <input type="text">
